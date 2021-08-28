@@ -3,8 +3,10 @@ package main
 /*
 Algorith:
 1. If the absolute difference between array length >= 2 return false
-2. sort the string
-3.
+2. Check the same index is equale in both strings
+3. If not, check if the string in one index is equale to the index + 1 in the other string
+4. add counter which collects skips in part 3
+5. If counter > 1 kill the run
 */
 import (
 	"fmt"
